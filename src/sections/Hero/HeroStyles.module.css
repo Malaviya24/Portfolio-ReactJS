@@ -4,11 +4,15 @@
   justify-content: center;
   gap: 20px;
   text-align: center;
-  height: 100dvh;
-  min-height: 500px;
+  min-height: 100vh;
+  padding: 40px 0;
 
   .hero {
-    max-width: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
   }
 
   span {
@@ -59,8 +63,13 @@
 
 .colorMode {
   position: absolute;
-  right: 0;
+  right: -30px;
   width: 25px;
+  cursor: pointer;
+  z-index: 10;
+  pointer-events: auto;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .colorMode:hover {
@@ -69,12 +78,55 @@
 
 .description {
   max-width: 24ch;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+/* Mobile responsiveness for description */
+@media (max-width: 480px) {
+  .description {
+    max-width: 20ch;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .colorMode {
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    pointer-events: auto;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .description {
+    max-width: 22ch;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .colorMode {
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    pointer-events: auto;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 
 @media (width >= 800px) {
@@ -84,17 +136,45 @@
     justify-content: space-evenly;
 
     .hero {
-      max-width: 350px;
       width: 350px;
+      height: 350px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center top;
     }
+  }
+  
+  .description {
+    max-width: 30ch;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .colorMode {
+    width: 35px;
+    height: 35px;
   }
 }
 
 @media (width >= 1400px) {
   .container {
     .hero {
-      max-width: 400px;
       width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center top;
     }
+  }
+  
+  .description {
+    max-width: 35ch;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .colorMode {
+    width: 40px;
+    height: 40px;
   }
 }

@@ -1,8 +1,7 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import swasthik from '../../assets/Swasthik.png';
+import chattrix from '../../assets/Chatterix.png';
+import rewindPro from '../../assets/Rewindpro.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,28 +10,22 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={swasthik}
+          link="https://swasthik-ai.vercel.app/"
+          h3="Swasthik"
+          p="AI Health Assistant"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={chattrix}
+          link="https://chattrix-69.vercel.app/"
+          h3="Chattrix"
+          p="Secure Chat App"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
-        />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={rewindPro}
+          link="https://universal-electric-motor-rewinding.vercel.app/"
+          h3="RewindPro"
+          p="Shop Management System"
         />
       </div>
     </section>

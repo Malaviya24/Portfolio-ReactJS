@@ -20,15 +20,18 @@
 
 body {
   background-color: var(--background-color);
-  display: flex;
-  justify-content: center;
-  margin: 0 auto 60px;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
 
 #root {
   display: flex;
   flex-direction: column;
   gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 60px 20px;
 }
 
 h1,
