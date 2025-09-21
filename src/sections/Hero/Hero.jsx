@@ -60,7 +60,7 @@ function Hero() {
         <p className={styles.description}>
           With a passion for building modern React web apps for businesses.
         </p>
-        <a href="/CV.pdf" download>
+        <a href="/Dhruv-CV.pdf" download>
           <button className="hover">Resume</button>
         </a>
       </div>
