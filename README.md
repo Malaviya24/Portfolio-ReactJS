@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React and Vite.
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://your-portfolio-url.com)
+[View Portfolio](https://malaviya-portfolio.vercel.app/)
 
 ## ✨ Features
 
@@ -13,13 +13,17 @@ A modern, responsive portfolio website built with React and Vite.
 - **Contact Form** - EmailJS integration for direct messaging
 - **Modern UI** - Clean, professional design
 - **Fast Loading** - Optimized with Vite
+- **Mobile-First** - Optimized for mobile devices
+- **Professional Animations** - Smooth transitions and effects
 
 ## 🛠️ Tech Stack
 
 - **Frontend**: React 18, Vite
-- **Styling**: CSS Modules
+- **Styling**: CSS Modules, Responsive Design
 - **Email**: EmailJS
 - **Icons**: Custom SVG icons
+- **Deployment**: Vercel
+- **Version Control**: Git, GitHub
 
 ## 📱 Sections
 
@@ -40,6 +44,12 @@ npm run dev
 # Build for production
 npm run build
 ```
+
+## 🌐 Deployment
+
+This portfolio is deployed on [Vercel](https://vercel.com) with automatic deployments from GitHub.
+
+**Live URL**: [malaviya-portfolio.vercel.app](https://malaviya-portfolio.vercel.app/)
 
 ## 📧 Contact
 
