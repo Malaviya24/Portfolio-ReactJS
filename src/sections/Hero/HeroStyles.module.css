@@ -93,7 +93,8 @@
 /* Mobile responsiveness for description */
 @media (max-width: 480px) {
   .container {
-    padding: 0 0 40px 0; /* Removed all top padding - 2x more reduction */
+    padding: 0 0 40px 0; /* No top padding */
+    margin-top: -20px; /* Pull content up even more with negative margin */
   }
   
   .description {
@@ -116,7 +117,8 @@
 
 @media (min-width: 481px) and (max-width: 768px) {
   .container {
-    padding: 5px 0 40px 0; /* Minimal top padding - 2x more reduction */
+    padding: 0 0 40px 0; /* No top padding */
+    margin-top: -15px; /* Pull content up with negative margin */
   }
   
   .description {
