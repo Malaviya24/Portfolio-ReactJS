@@ -92,6 +92,10 @@
 
 /* Mobile responsiveness for description */
 @media (max-width: 480px) {
+  .container {
+    padding: 20px 0 40px 0; /* Reduced top padding from 40px to 20px */
+  }
+  
   .description {
     max-width: 20ch;
     font-size: 14px;
@@ -111,6 +115,10 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    padding: 25px 0 40px 0; /* Slightly more top padding for medium mobile */
+  }
+  
   .description {
     max-width: 22ch;
     font-size: 15px;
