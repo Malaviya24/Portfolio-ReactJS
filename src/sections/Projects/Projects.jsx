@@ -1,7 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import swasthik from '../../assets/Swasthik.png';
-import chattrix from '../../assets/Chatterix.png';
-import rewindPro from '../../assets/Rewindpro.png';
+import zeroTrace from '../../assets/zero-trace.png';
+import whocalled from '../../assets/whocalled.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -16,16 +16,16 @@ function Projects() {
           p="AI Health Assistant"
         />
         <ProjectCard
-          src={chattrix}
-          link="https://chattrix-69.vercel.app/"
-          h3="Chattrix"
+          src={zeroTrace}
+          link="https://kpgu.in"
+          h3="Zero-Trace"
           p="Secure Chat App"
         />
         <ProjectCard
-          src={rewindPro}
-          link="https://universal-electric-motor-rewinding.vercel.app/"
-          h3="RewindPro"
-          p="Shop Management System"
+          src={whocalled}
+          link="https://idkwhoami.in"
+          h3="WhoCalled"
+          p="Num to Info"
         />
       </div>
     </section>

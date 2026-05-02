@@ -27,6 +27,27 @@
         width: 30px;
       }
     }
+
+    .coffeeLink {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      transition: transform 200ms ease-in-out;
+    }
+
+    .coffeeLink:hover {
+      transform: scale(1.08);
+    }
+
+    .coffeeLink img {
+      width: 30px;
+      height: 30px;
+      object-fit: contain;
+      display: block;
+    }
   }
 
   a {
