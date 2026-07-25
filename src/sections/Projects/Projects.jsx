@@ -17,13 +17,13 @@ function Projects() {
         />
         <ProjectCard
           src={zeroTrace}
-          link="https://kpgu.in"
+          link="https://zero-trace-psi.vercel.app/"
           h3="Zero-Trace"
           p="Secure Chat App"
         />
         <ProjectCard
           src={whocalled}
-          link="https://idkwhoami.in"
+          link="https://whocalled.vercel.app/"
           h3="WhoCalled"
           p="Num to Info"
         />
